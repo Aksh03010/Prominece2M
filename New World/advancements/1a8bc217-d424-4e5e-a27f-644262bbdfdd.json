@@ -25744,15 +25744,15 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/nether_brick_pillar_from_nether_bricks_stonecutting": {
+  "archon:obtain_wand": {
     "criteria": {
-      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
+      "wand": "2026-07-13 19:51:22 -0400"
     },
     "done": true
   },
-  "techreborn:recipes/grinder/steel_dust": {
+  "stoneworks:recipes/building_blocks/nether_brick_pillar_from_nether_bricks_stonecutting": {
     "criteria": {
-      "has_tag_c_steel_ingots": "2026-07-13 20:48:52 -0400"
+      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
     },
     "done": true
   },
@@ -25762,39 +25762,9 @@
     },
     "done": true
   },
-  "techreborn:recipes/compressor/steel_plate_from_block": {
-    "criteria": {
-      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
-    },
-    "done": true
-  },
-  "spellbladenext:spellblades/spellblade": {
-    "criteria": {
-      "arcane": "2026-07-13 23:11:52 -0400"
-    },
-    "done": true
-  },
-  "betterend:terminite_anvil": {
-    "criteria": {
-      "got_terminite_anvil": "2026-07-13 20:57:48 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/redstone/pythadendron_plate": {
-    "criteria": {
-      "has_pythadendron_planks": "2026-07-13 22:21:33 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/terminite_anvil_updrade": {
-    "criteria": {
-      "has_block.betterend.terminite_anvil": "2026-07-13 20:57:48 -0400"
     },
     "done": true
   },
@@ -25804,45 +25774,9 @@
     },
     "done": true
   },
-  "betterend:infusion_finished": {
-    "criteria": {
-      "finished": "2026-07-13 22:31:46 -0400"
-    },
-    "done": true
-  },
   "betternether:recipes/building_blocks/nether_brick_tile_small_stonecutting": {
     "criteria": {
       "has_block.minecraft.nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/ender_shard_to_dust": {
-    "criteria": {
-      "has_item.betterend.ender_shard": "2026-07-13 22:30:12 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/eternal_crystal": {
-    "criteria": {
-      "has_item.minecraft.end_crystal": "2026-07-13 22:10:01 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/umbrella_tree_crafting_table": {
-    "criteria": {
-      "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/redstone/pythadendron_trapdoor": {
-    "criteria": {
-      "has_pythadendron_planks": "2026-07-13 22:21:33 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/redstone/umbrella_tree_door": {
-    "criteria": {
-      "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
     },
     "done": true
   },
@@ -25855,12 +25789,6 @@
   "stoneworks:recipes/building_blocks/nether_brick_shingle_wall_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/beacon": {
-    "criteria": {
-      "has_nether_star": "2026-07-13 22:10:24 -0400"
     },
     "done": true
   },
@@ -25882,57 +25810,9 @@
     },
     "done": true
   },
-  "betterend:recipes/redstone/umbrella_tree_trapdoor": {
-    "criteria": {
-      "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/umbrella_tree_chest": {
-    "criteria": {
-      "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/misc/crafting_table/storage_block/steel_blocks_slab_stonecutter": {
-    "criteria": {
-      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/respawn_obelisk": {
-    "criteria": {
-      "has_eternal_crystal": "2026-07-13 22:31:57 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/compressor/steel_plate": {
-    "criteria": {
-      "has_tag_c_steel_ingots": "2026-07-13 20:48:52 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "spellbladenext:spellblades/starforge": {
-    "criteria": {
-      "arcane": "2026-07-13 23:18:38 -0400"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/decorations/betterend/sign_post_umbrella_tree": {
-    "criteria": {
-      "has_item": "2026-07-13 22:25:45 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/pythadendron_crafting_table": {
-    "criteria": {
-      "has_pythadendron_planks": "2026-07-13 22:21:33 -0400"
     },
     "done": true
   },
@@ -25948,39 +25828,9 @@
     },
     "done": true
   },
-  "spellbladenext:spellblades/ashes": {
-    "criteria": {
-      "arcane": "2026-07-13 23:18:34 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/pythadendron_wall": {
-    "criteria": {
-      "has_pythadendron_planks": "2026-07-13 22:21:33 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/crafting_table/parts/diamond_grinding_head": {
-    "criteria": {
-      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/misc/crafting_table/storage_block/steel_storage_block": {
-    "criteria": {
-      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/misc/crafting_table/storage_block/steel_blocks_slab": {
-    "criteria": {
-      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
     },
     "done": true
   },
@@ -25990,51 +25840,9 @@
     },
     "done": true
   },
-  "techreborn:recipes/misc/crafting_table/storage_block/steel_blocks_stairs": {
-    "criteria": {
-      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/nether_brick_plate_wall_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2026-07-13 22:23:13 -0400"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/skeleton_smithing": {
-    "criteria": {
-      "has_skeleton": "2026-07-13 23:02:01 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/misc/crafting_table/storage_block/steel_blocks_stairs_stonecutter": {
-    "criteria": {
-      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/pythadendron_barrel": {
-    "criteria": {
-      "has_pythadendron_planks": "2026-07-13 22:21:33 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/misc/crafting_table/ingot/steel_ingot_from_block": {
-    "criteria": {
-      "has_steel_storage_block": "2026-07-13 20:49:12 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/compressing/compressing/steel_plate_from_compressing_steel_blocks": {
-    "criteria": {
-      "has_item": "2026-07-13 20:49:12 -0400"
     },
     "done": true
   },
@@ -26050,45 +25858,9 @@
     },
     "done": true
   },
-  "techreborn:recipes/misc/crafting_table/armor/steel_boots": {
-    "criteria": {
-      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/misc/crafting_table/storage_block/steel_blocks_wall_stonecutter": {
-    "criteria": {
-      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
-    },
-    "done": true
-  },
-  "spellbladenext:spellblades/magus": {
-    "criteria": {
-      "arcane": "2026-07-13 23:07:58 -0400"
-    },
-    "done": true
-  },
-  "soulsweapons:nightfall": {
-    "criteria": {
-      "nightfall": "2026-07-13 21:01:00 -0400"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/nether_brick_paver_slab_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/umbrella_tree_barrel": {
-    "criteria": {
-      "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
-    },
-    "done": true
-  },
-  "betterend:portal_on": {
-    "criteria": {
-      "turn_on": "2026-07-13 22:33:22 -0400"
     },
     "done": true
   },
@@ -26098,9 +25870,201 @@
     },
     "done": true
   },
+  "betternether:recipes/building_blocks/nether_brick_wall_from_brick_stonecutting": {
+    "criteria": {
+      "has_block.minecraft.nether_bricks": "2026-07-13 20:14:00 -0400"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_plate_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_brick_tile_large_stonecutting": {
+    "criteria": {
+      "has_block.minecraft.nether_bricks": "2026-07-13 20:14:00 -0400"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_paver_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_plate_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
+    },
+    "done": true
+  },
+  "bewitchment:recipes/decorations/nether_brick_witch_altar": {
+    "criteria": {
+      "has_item": "2026-07-13 20:14:00 -0400"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/roof_tile_nether_brick_stonecutting": {
+    "criteria": {
+      "has_block.minecraft.nether_bricks": "2026-07-13 20:14:00 -0400"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_bricks_roof_tile_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_brick_tile_slab_from_brick_stonecutting": {
+    "criteria": {
+      "has_block.minecraft.nether_bricks": "2026-07-13 20:14:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/grinder/steel_dust": {
+    "criteria": {
+      "has_tag_c_steel_ingots": "2026-07-13 20:48:52 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/compressor/steel_plate": {
+    "criteria": {
+      "has_tag_c_steel_ingots": "2026-07-13 20:48:52 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/parts/diamond_grinding_head": {
+    "criteria": {
+      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/storage_block/steel_storage_block": {
+    "criteria": {
+      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/armor/steel_boots": {
+    "criteria": {
+      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
+    },
+    "done": true
+  },
   "techreborn:recipes/misc/crafting_table/armor/steel_helmet": {
     "criteria": {
       "has_steel_ingot": "2026-07-13 20:48:52 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/nugget/steel_nugget": {
+    "criteria": {
+      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/armor/steel_leggings": {
+    "criteria": {
+      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/parts/diamond_saw_blade": {
+    "criteria": {
+      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_block": {
+    "criteria": {
+      "has_steel_block": "2026-07-13 20:48:52 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/steel_plate_from_compressing_steel_ingots": {
+    "criteria": {
+      "has_item": "2026-07-13 20:48:52 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/armor/steel_chestplate": {
+    "criteria": {
+      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/compressor/steel_plate_from_block": {
+    "criteria": {
+      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/storage_block/steel_blocks_slab_stonecutter": {
+    "criteria": {
+      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/storage_block/steel_blocks_slab": {
+    "criteria": {
+      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/storage_block/steel_blocks_stairs": {
+    "criteria": {
+      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/storage_block/steel_blocks_stairs_stonecutter": {
+    "criteria": {
+      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/ingot/steel_ingot_from_block": {
+    "criteria": {
+      "has_steel_storage_block": "2026-07-13 20:49:12 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/steel_plate_from_compressing_steel_blocks": {
+    "criteria": {
+      "has_item": "2026-07-13 20:49:12 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/storage_block/steel_blocks_wall_stonecutter": {
+    "criteria": {
+      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/grinder/steel_dust_from_block": {
+    "criteria": {
+      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/storage_block/steel_blocks_wall": {
+    "criteria": {
+      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
     },
     "done": true
   },
@@ -26110,9 +26074,75 @@
     },
     "done": true
   },
+  "betterend:terminite_anvil": {
+    "criteria": {
+      "got_terminite_anvil": "2026-07-13 20:57:48 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_anvil_updrade": {
+    "criteria": {
+      "has_block.betterend.terminite_anvil": "2026-07-13 20:57:48 -0400"
+    },
+    "done": true
+  },
+  "soulsweapons:nightfall": {
+    "criteria": {
+      "nightfall": "2026-07-13 21:01:00 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/eternal_crystal": {
+    "criteria": {
+      "has_item.minecraft.end_crystal": "2026-07-13 22:10:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2026-07-13 22:10:24 -0400"
+    },
+    "done": true
+  },
   "fwaystones:recipes/pocket_wormhole": {
     "criteria": {
       "has_nether_star": "2026-07-13 22:10:24 -0400"
+    },
+    "done": true
+  },
+  "wands:recipes/magic_bag_3": {
+    "criteria": {
+      "has_nether_star": "2026-07-13 22:10:24 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/pythadendron_plate": {
+    "criteria": {
+      "has_pythadendron_planks": "2026-07-13 22:21:33 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/pythadendron_trapdoor": {
+    "criteria": {
+      "has_pythadendron_planks": "2026-07-13 22:21:33 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_crafting_table": {
+    "criteria": {
+      "has_pythadendron_planks": "2026-07-13 22:21:33 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/pythadendron_wall": {
+    "criteria": {
+      "has_pythadendron_planks": "2026-07-13 22:21:33 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_barrel": {
+    "criteria": {
+      "has_pythadendron_planks": "2026-07-13 22:21:33 -0400"
     },
     "done": true
   },
@@ -26134,39 +26164,9 @@
     },
     "done": true
   },
-  "betternether:recipes/building_blocks/nether_brick_wall_from_brick_stonecutting": {
-    "criteria": {
-      "has_block.minecraft.nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/nether_brick_plate_slab_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/redstone/umbrella_tree_button": {
-    "criteria": {
-      "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
-    },
-    "done": true
-  },
-  "betterend:portal": {
-    "criteria": {
-      "eternal_portal": "2026-07-13 22:25:33 -0400"
-    },
-    "done": true
-  },
   "supplementaries:recipes/decorations/betterend/sign_post_pythadendron": {
     "criteria": {
       "has_item": "2026-07-13 22:21:33 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/grinder/steel_dust_from_block": {
-    "criteria": {
-      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
     },
     "done": true
   },
@@ -26176,45 +26176,63 @@
     },
     "done": true
   },
-  "betterend:infusion": {
+  "betterend:recipes/decorations/pythadendron_chest": {
     "criteria": {
-      "infusion_pedestal": "2026-07-13 22:26:34 -0400"
+      "has_pythadendron_planks": "2026-07-13 22:21:33 -0400"
     },
     "done": true
   },
-  "archon:obtain_wand": {
+  "minecraft:end/find_end_city": {
     "criteria": {
-      "wand": "2026-07-13 19:51:22 -0400"
+      "in_city": "2026-07-13 22:23:13 -0400"
     },
     "done": true
   },
-  "betternether:recipes/building_blocks/nether_brick_tile_large_stonecutting": {
+  "betterend:portal": {
     "criteria": {
-      "has_block.minecraft.nether_bricks": "2026-07-13 20:14:00 -0400"
+      "eternal_portal": "2026-07-13 22:25:33 -0400"
     },
     "done": true
   },
-  "techreborn:recipes/misc/crafting_table/nugget/steel_nugget": {
+  "betterend:recipes/decorations/umbrella_tree_crafting_table": {
     "criteria": {
-      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
+      "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
     },
     "done": true
   },
-  "techreborn:recipes/misc/crafting_table/armor/steel_leggings": {
+  "betterend:recipes/redstone/umbrella_tree_door": {
     "criteria": {
-      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
+      "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/nether_brick_paver_stairs_from_nether_bricks_stonecutting": {
+  "betterend:recipes/redstone/umbrella_tree_trapdoor": {
     "criteria": {
-      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
+      "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/nether_brick_plate_stairs_from_nether_bricks_stonecutting": {
+  "betterend:recipes/decorations/umbrella_tree_chest": {
     "criteria": {
-      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
+      "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/betterend/sign_post_umbrella_tree": {
+    "criteria": {
+      "has_item": "2026-07-13 22:25:45 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_barrel": {
+    "criteria": {
+      "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/umbrella_tree_button": {
+    "criteria": {
+      "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
     },
     "done": true
   },
@@ -26224,87 +26242,9 @@
     },
     "done": true
   },
-  "bewitchment:recipes/decorations/nether_brick_witch_altar": {
-    "criteria": {
-      "has_item": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/crafting_table/parts/diamond_saw_blade": {
-    "criteria": {
-      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/steel_block": {
-    "criteria": {
-      "has_steel_block": "2026-07-13 20:48:52 -0400"
-    },
-    "done": true
-  },
   "betterend:recipes/building_blocks/umbrella_tree_stairs": {
     "criteria": {
       "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/amber_block": {
-    "criteria": {
-      "has_amber_gem": "2026-07-13 22:38:02 -0400"
-    },
-    "done": true
-  },
-  "spellbladenext:spellblades/omni": {
-    "criteria": {
-      "arcane": "2026-07-13 23:18:40 -0400"
-    },
-    "done": true
-  },
-  "spellbladenext:spellblades/glassocean": {
-    "criteria": {
-      "arcane": "2026-07-13 23:07:20 -0400"
-    },
-    "done": true
-  },
-  "betternether:recipes/building_blocks/roof_tile_nether_brick_stonecutting": {
-    "criteria": {
-      "has_block.minecraft.nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/compressing/compressing/steel_plate_from_compressing_steel_ingots": {
-    "criteria": {
-      "has_item": "2026-07-13 20:48:52 -0400"
-    },
-    "done": true
-  },
-  "betternether:recipes/building_blocks/nether_bricks_roof_tile_nether_bricks": {
-    "criteria": {
-      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "betternether:recipes/building_blocks/nether_brick_tile_slab_from_brick_stonecutting": {
-    "criteria": {
-      "has_block.minecraft.nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/misc/crafting_table/storage_block/steel_blocks_wall": {
-    "criteria": {
-      "has_tag_c_steel_blocks": "2026-07-13 20:49:12 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/misc/crafting_table/armor/steel_chestplate": {
-    "criteria": {
-      "has_steel_ingot": "2026-07-13 20:48:52 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/nether_brick_wall": {
-    "criteria": {
-      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
     },
     "done": true
   },
@@ -26314,15 +26254,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/nether_brick_slab": {
-    "criteria": {
-      "has_nether_bricks": "2026-07-13 20:14:00 -0400"
-    },
-    "done": true
-  },
   "betterend:recipes/redstone/umbrella_tree_plate": {
     "criteria": {
       "has_umbrella_tree_planks": "2026-07-13 22:25:45 -0400"
+    },
+    "done": true
+  },
+  "betterend:infusion": {
+    "criteria": {
+      "infusion_pedestal": "2026-07-13 22:26:34 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_shard_to_dust": {
+    "criteria": {
+      "has_item.betterend.ender_shard": "2026-07-13 22:30:12 -0400"
+    },
+    "done": true
+  },
+  "betterend:infusion_finished": {
+    "criteria": {
+      "finished": "2026-07-13 22:31:46 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/respawn_obelisk": {
+    "criteria": {
+      "has_eternal_crystal": "2026-07-13 22:31:57 -0400"
+    },
+    "done": true
+  },
+  "betterend:portal_on": {
+    "criteria": {
+      "turn_on": "2026-07-13 22:33:22 -0400"
     },
     "done": true
   },
@@ -26332,21 +26296,57 @@
     },
     "done": true
   },
+  "betterend:recipes/misc/amber_block": {
+    "criteria": {
+      "has_amber_gem": "2026-07-13 22:38:02 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/skeleton_smithing": {
+    "criteria": {
+      "has_skeleton": "2026-07-13 23:02:01 -0400"
+    },
+    "done": true
+  },
   "techreborn:recipes/extractor/paper_from_written_book": {
     "criteria": {
       "has_written_book": "2026-07-13 23:05:52 -0400"
     },
     "done": true
   },
-  "betterend:recipes/decorations/pythadendron_chest": {
+  "spellbladenext:spellblades/glassocean": {
     "criteria": {
-      "has_pythadendron_planks": "2026-07-13 22:21:33 -0400"
+      "arcane": "2026-07-13 23:07:20 -0400"
     },
     "done": true
   },
-  "wands:recipes/magic_bag_3": {
+  "spellbladenext:spellblades/magus": {
     "criteria": {
-      "has_nether_star": "2026-07-13 22:10:24 -0400"
+      "arcane": "2026-07-13 23:07:58 -0400"
+    },
+    "done": true
+  },
+  "spellbladenext:spellblades/spellblade": {
+    "criteria": {
+      "arcane": "2026-07-13 23:11:52 -0400"
+    },
+    "done": true
+  },
+  "spellbladenext:spellblades/ashes": {
+    "criteria": {
+      "arcane": "2026-07-13 23:18:34 -0400"
+    },
+    "done": true
+  },
+  "spellbladenext:spellblades/starforge": {
+    "criteria": {
+      "arcane": "2026-07-13 23:18:38 -0400"
+    },
+    "done": true
+  },
+  "spellbladenext:spellblades/omni": {
+    "criteria": {
+      "arcane": "2026-07-13 23:18:40 -0400"
     },
     "done": true
   },
