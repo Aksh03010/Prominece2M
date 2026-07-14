@@ -1,0 +1,17 @@
+{
+	id: "a618d9b7-c946-4faa-a4ae-09e0d82b8e70"
+	type: "player"
+	player_name: "Sabesfb"
+	ranks: {
+		a618d9b7-c946-4faa-a4ae-09e0d82b8e70: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Sabesfb"
+		"ftbteams:description": ""
+		"ftbteams:color": "#E9FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

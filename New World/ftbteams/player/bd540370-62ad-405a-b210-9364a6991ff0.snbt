@@ -1,0 +1,17 @@
+{
+	id: "bd540370-62ad-405a-b210-9364a6991ff0"
+	type: "player"
+	player_name: "Keyhart"
+	ranks: {
+		bd540370-62ad-405a-b210-9364a6991ff0: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Keyhart"
+		"ftbteams:description": ""
+		"ftbteams:color": "#595AFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

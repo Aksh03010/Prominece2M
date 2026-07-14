@@ -1,0 +1,17 @@
+{
+	id: "1a8bc217-d424-4e5e-a27f-644262bbdfdd"
+	type: "player"
+	player_name: "Aksh03010"
+	ranks: {
+		1a8bc217-d424-4e5e-a27f-644262bbdfdd: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Aksh03010"
+		"ftbteams:description": ""
+		"ftbteams:color": "#5963FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

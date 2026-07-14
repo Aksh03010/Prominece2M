@@ -1,0 +1,17 @@
+{
+	id: "0a5b0b5b-c2db-4e30-9d3f-5f2f36ebb92c"
+	type: "player"
+	player_name: "SupGuyy"
+	ranks: {
+		0a5b0b5b-c2db-4e30-9d3f-5f2f36ebb92c: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "SupGuyy"
+		"ftbteams:description": ""
+		"ftbteams:color": "#5974FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
