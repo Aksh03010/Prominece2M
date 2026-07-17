@@ -2599,6 +2599,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2026-07-16 20:18:26 -0400",
       "cooked_beef": "2026-06-30 19:58:54 -0400",
       "chorus_fruit": "2026-07-09 20:02:11 -0400",
       "baked_potato": "2026-06-30 17:06:09 -0400",
@@ -14784,7 +14785,8 @@
     "criteria": {
       "shepherds_pie": "2026-07-13 23:20:47 -0400",
       "roast_chicken": "2026-07-13 23:43:19 -0400",
-      "honey_glazed_ham": "2026-06-30 19:13:30 -0400"
+      "honey_glazed_ham": "2026-06-30 19:13:30 -0400",
+      "vegetable_noodles": "2026-07-16 18:02:13 -0400"
     },
     "done": false
   },
@@ -20030,6 +20032,7 @@
   },
   "betterend:all_elytras": {
     "criteria": {
+      "crystalite": "2026-07-16 18:12:53 -0400",
       "vanilla": "2026-07-05 19:42:09 -0400"
     },
     "done": false
@@ -20137,6 +20140,7 @@
       "betterend:dust_wastelands": "2026-07-09 17:32:22 -0400",
       "betterend:foggy_mushroomland": "2026-07-09 17:38:40 -0400",
       "betterend:glowing_grasslands": "2026-07-13 21:03:52 -0400",
+      "betterend:jade_cave": "2026-07-16 18:31:03 -0400",
       "betterend:megalake_grove": "2026-07-09 17:43:31 -0400",
       "betterend:umbra_valley": "2026-07-05 20:06:06 -0400",
       "betterend:chorus_forest": "2026-07-09 20:07:18 -0400",
@@ -24975,9 +24979,117 @@
     },
     "done": true
   },
-  "spellbladenext:spellblades/spellblade": {
+  "techreborn:recipes/centrifuge/carrot": {
     "criteria": {
-      "arcane": "2026-07-15 20:51:44 -0400"
+      "has_carrot": "2026-07-15 20:09:07 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/extractor/orange_dye_from_carrot": {
+    "criteria": {
+      "has_carrot": "2026-07-15 20:09:07 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-15 20:09:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2026-07-15 20:09:07 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/chemical_reactor/golden_carrot": {
+    "criteria": {
+      "has_carrot": "2026-07-15 20:09:07 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-15 20:09:07 -0400"
+    },
+    "done": true
+  },
+  "frostiful:recipes/combat/armor/fur_boots": {
+    "criteria": {
+      "has_fur": "2026-07-15 20:16:30 -0400"
+    },
+    "done": true
+  },
+  "frostiful:recipes/combat/armor/fur_leggings": {
+    "criteria": {
+      "has_fur": "2026-07-15 20:16:30 -0400"
+    },
+    "done": true
+  },
+  "frostiful:recipes/combat/armor/fur_helmet": {
+    "criteria": {
+      "has_fur": "2026-07-15 20:16:30 -0400"
+    },
+    "done": true
+  },
+  "frostiful:recipes/combat/armor/fur_chestplate": {
+    "criteria": {
+      "has_fur": "2026-07-15 20:16:30 -0400"
+    },
+    "done": true
+  },
+  "frostiful:recipes/misc/fur_padding": {
+    "criteria": {
+      "has_fur": "2026-07-15 20:16:30 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/purple_dye_from_purple_lupine": {
+    "criteria": {
+      "has_purple_lupine": "2026-07-15 20:16:46 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/blue_dye_from_blue_lupine": {
+    "criteria": {
+      "has_blue_lupine": "2026-07-15 20:18:13 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-15 20:18:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2026-07-15 20:18:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2026-07-15 20:18:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2026-07-15 20:18:35 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/red_dye_from_red_lupine": {
+    "criteria": {
+      "has_red_lupine": "2026-07-15 20:20:49 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/pink_dye_from_pink_lupine": {
+    "criteria": {
+      "has_pink_lupine": "2026-07-15 20:21:29 -0400"
     },
     "done": true
   },
@@ -24999,12 +25111,6 @@
     },
     "done": true
   },
-  "frostiful:recipes/combat/armor/fur_boots": {
-    "criteria": {
-      "has_fur": "2026-07-15 20:16:30 -0400"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/darkin_scythe_pre": {
     "criteria": {
       "has_item": "2026-07-15 20:24:26 -0400"
@@ -25017,33 +25123,9 @@
     },
     "done": true
   },
-  "simplyswords:wickpiercer": {
-    "criteria": {
-      "requirement": "2026-07-15 20:27:24 -0400"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/comet_spear": {
     "criteria": {
       "has_item": "2026-07-15 20:24:26 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/centrifuge/carrot": {
-    "criteria": {
-      "has_carrot": "2026-07-15 20:09:07 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
-    "criteria": {
-      "has_any_ingredient": "2026-07-15 20:18:35 -0400"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/misc/purple_dye_from_purple_lupine": {
-    "criteria": {
-      "has_purple_lupine": "2026-07-15 20:16:46 -0400"
     },
     "done": true
   },
@@ -25059,21 +25141,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton_from_smoking": {
-    "criteria": {
-      "has_mutton": "2026-07-15 20:18:35 -0400"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/soul_reaper": {
     "criteria": {
       "has_item": "2026-07-15 20:24:26 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/map": {
-    "criteria": {
-      "has_compass": "2026-07-15 21:01:14 -0400"
     },
     "done": true
   },
@@ -25095,51 +25165,15 @@
     },
     "done": true
   },
-  "frostiful:recipes/combat/armor/fur_leggings": {
-    "criteria": {
-      "has_fur": "2026-07-15 20:16:30 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/extractor/orange_dye_from_carrot": {
-    "criteria": {
-      "has_carrot": "2026-07-15 20:09:07 -0400"
-    },
-    "done": true
-  },
-  "frostiful:recipes/combat/armor/fur_helmet": {
-    "criteria": {
-      "has_fur": "2026-07-15 20:16:30 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_noodles": {
-    "criteria": {
-      "has_any_ingredient": "2026-07-15 20:09:07 -0400"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/moonlight_shortsword": {
     "criteria": {
       "has_lord_soul": "2026-07-15 20:24:26 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton": {
-    "criteria": {
-      "has_mutton": "2026-07-15 20:18:35 -0400"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/rageblade": {
     "criteria": {
       "has_item": "2026-07-15 20:24:26 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
-    "criteria": {
-      "has_carrot": "2026-07-15 20:09:07 -0400"
     },
     "done": true
   },
@@ -25161,12 +25195,6 @@
     },
     "done": true
   },
-  "spellbladenext:spellblades/magus": {
-    "criteria": {
-      "arcane": "2026-07-15 20:43:50 -0400"
-    },
-    "done": true
-  },
   "endrem:main/wither_eye": {
     "criteria": {
       "wither_eye": "2026-07-15 20:24:26 -0400"
@@ -25182,18 +25210,6 @@
   "soulsweapons:recipes/combat/supernova": {
     "criteria": {
       "has_item": "2026-07-15 20:24:26 -0400"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/misc/pink_dye_from_pink_lupine": {
-    "criteria": {
-      "has_pink_lupine": "2026-07-15 20:21:29 -0400"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/misc/red_dye_from_red_lupine": {
-    "criteria": {
-      "has_red_lupine": "2026-07-15 20:20:49 -0400"
     },
     "done": true
   },
@@ -25215,18 +25231,6 @@
     },
     "done": true
   },
-  "techreborn:recipes/chemical_reactor/golden_carrot": {
-    "criteria": {
-      "has_carrot": "2026-07-15 20:09:07 -0400"
-    },
-    "done": true
-  },
-  "frostiful:recipes/combat/armor/fur_chestplate": {
-    "criteria": {
-      "has_fur": "2026-07-15 20:16:30 -0400"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/darkin_blade": {
     "criteria": {
       "has_lord_soul": "2026-07-15 20:24:26 -0400"
@@ -25245,21 +25249,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
-    "criteria": {
-      "has_mutton": "2026-07-15 20:18:35 -0400"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/excalibur": {
     "criteria": {
       "has_item": "2026-07-15 20:24:26 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_soup": {
-    "criteria": {
-      "has_any_ingredient": "2026-07-15 20:09:07 -0400"
     },
     "done": true
   },
@@ -25281,27 +25273,9 @@
     },
     "done": true
   },
-  "naturescompass:natures_compass": {
-    "criteria": {
-      "has_compass": "2026-07-15 21:01:14 -0400"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/leviathan_axe_left": {
     "criteria": {
       "has_item": "2026-07-15 20:24:26 -0400"
-    },
-    "done": true
-  },
-  "spellbladenext:spellblades/glassocean": {
-    "criteria": {
-      "arcane": "2026-07-15 20:37:45 -0400"
-    },
-    "done": true
-  },
-  "explorerscompass:explorers_compass": {
-    "criteria": {
-      "has_compass": "2026-07-15 21:01:14 -0400"
     },
     "done": true
   },
@@ -25329,15 +25303,27 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/misc/blue_dye_from_blue_lupine": {
+  "soulsweapons:recipes/combat/skofnung": {
     "criteria": {
-      "has_blue_lupine": "2026-07-15 20:18:13 -0400"
+      "has_lord_soul": "2026-07-15 20:24:26 -0400"
     },
     "done": true
   },
-  "frostiful:recipes/misc/fur_padding": {
+  "simplyswords:wickpiercer": {
     "criteria": {
-      "has_fur": "2026-07-15 20:16:30 -0400"
+      "requirement": "2026-07-15 20:27:24 -0400"
+    },
+    "done": true
+  },
+  "spellbladenext:spellblades/glassocean": {
+    "criteria": {
+      "arcane": "2026-07-15 20:37:45 -0400"
+    },
+    "done": true
+  },
+  "spellbladenext:spellblades/magus": {
+    "criteria": {
+      "arcane": "2026-07-15 20:43:50 -0400"
     },
     "done": true
   },
@@ -25347,9 +25333,453 @@
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/skofnung": {
+  "spellbladenext:spellblades/spellblade": {
     "criteria": {
-      "has_lord_soul": "2026-07-15 20:24:26 -0400"
+      "arcane": "2026-07-15 20:51:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2026-07-15 21:01:14 -0400"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass": {
+    "criteria": {
+      "has_compass": "2026-07-15 21:01:14 -0400"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass": {
+    "criteria": {
+      "has_compass": "2026-07-15 21:01:14 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/pythadendron_log": {
+    "criteria": {
+      "has_pythadendron_bark": "2026-07-16 17:42:31 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_barrel": {
+    "criteria": {
+      "has_lacugrove_slab": "2026-07-16 17:43:12 -0400"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_composter": {
+    "criteria": {
+      "has_lacugrove_slab": "2026-07-16 17:43:12 -0400"
+    },
+    "done": true
+  },
+  "soulsweapons:end_of_reigns": {
+    "criteria": {
+      "condition_0": "2026-07-16 18:01:14 -0400"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/smelt_withered_demon_heart": {
+    "criteria": {
+      "has_item": "2026-07-16 18:01:24 -0400"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/withered_chest": {
+    "criteria": {
+      "has_item": "2026-07-16 18:01:24 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/chute": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gantry_shaft": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/wooden_bracket": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/belt_connector": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/metal_girder": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/andesite_scaffolding_from_andesite_alloy_stonecutting": {
+    "criteria": {
+      "has_andesite_alloy": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/speedometer": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/white_sail": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/linear_chassis": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/large_cogwheel": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/andesite_table_cloth_from_andesite_alloy_stonecutting": {
+    "criteria": {
+      "has_andesite_alloy": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/water_wheel": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/andesite_alloy_block": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/shaft": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sticker": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/radial_chassis": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/goggles": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/andesite_alloy_from_block": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/display_board": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/piston_extension_pole": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/cart_assembler": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/basin": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/andesite_ladder_from_andesite_alloy_stonecutting": {
+    "criteria": {
+      "has_andesite_alloy": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/contraption_controls": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/rope_pulley": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/curiosities/minecart_coupling": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/cuckoo_clock": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/filter": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/clipboard": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/item_hatch": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/wrench": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/large_cogwheel_from_little": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/hand_crank": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/turntable": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/andesite_bars_from_andesite_alloy_stonecutting": {
+    "criteria": {
+      "has_andesite_alloy": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sticky_mechanical_piston": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/analog_lever": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/andesite_tunnel": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/windmill_bearing": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/andesite_funnel": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_mixer": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/cogwheel": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/metal_bracket": {
+    "criteria": {
+      "has_item": "2026-07-16 18:03:37 -0400"
+    },
+    "done": true
+  },
+  "zenith:enchanting/arcana100": {
+    "criteria": {
+      "enchanted_item": "2026-07-16 18:16:03 -0400"
+    },
+    "done": true
+  },
+  "zenith:enchanting/max_stable": {
+    "criteria": {
+      "enchanted_item": "2026-07-16 18:16:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper": {
+    "criteria": {
+      "has_oxidized_copper": "2026-07-16 18:25:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2026-07-16 18:25:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2026-07-16 18:25:18 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/copper_pillar/oxidized_copper_pillar_stonecutting": {
+    "criteria": {
+      "has_cut_copper_slab": "2026-07-16 18:25:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper": "2026-07-16 18:25:18 -0400"
+    },
+    "done": true
+  },
+  "oxidized:recipes/vertical_oxidized_cut_copper": {
+    "criteria": {
+      "has_copper_block": "2026-07-16 18:25:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2026-07-16 18:25:18 -0400"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:end/obsidilith_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:obsidilith": "2026-07-16 18:32:03 -0400"
+    },
+    "done": true
+  },
+  "create:hand_crank_000": {
+    "criteria": {
+      "0": "2026-07-16 18:45:10 -0400"
+    },
+    "done": true
+  },
+  "things:bater_wucket": {
+    "criteria": {
+      "bater_wucket": "2026-07-16 19:22:08 -0400"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/date_sapling": {
+    "criteria": {
+      "has_date": "2026-07-16 20:07:44 -0400"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_sticky_toffee_pudding": {
+    "criteria": {
+      "has_date": "2026-07-16 20:07:44 -0400"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_figgy_pudding": {
+    "criteria": {
+      "has_date": "2026-07-16 20:07:44 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2026-07-16 20:08:32 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2026-07-16 20:08:32 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2026-07-16 20:08:32 -0400"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/teddy_bear": {
+    "criteria": {
+      "has_bear_fur": "2026-07-16 20:12:54 -0400"
+    },
+    "done": true
+  },
+  "brewery:recipes/pork_knuckle": {
+    "criteria": {
+      "has_cooked_porkchop": "2026-07-16 20:16:51 -0400"
+    },
+    "done": true
+  },
+  "croptopia:recipes/ham_sandwich": {
+    "criteria": {
+      "has_cooked_porkchop": "2026-07-16 20:16:51 -0400"
     },
     "done": true
   },

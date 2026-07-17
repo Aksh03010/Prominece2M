@@ -3757,6 +3757,7 @@
       "scorching_caves": "2026-06-29 21:10:42 -0400",
       "rocky_meadow": "2026-06-28 22:41:25 -0400",
       "blackwood_taiga": "2026-06-29 18:19:49 -0400",
+      "mycotoxic_undergrowth": "2026-07-16 17:58:27 -0400",
       "ochard": "2026-07-01 18:31:49 -0400",
       "highland_fields": "2026-06-29 21:06:35 -0400",
       "frozen_pine_taiga": "2026-07-01 18:44:56 -0400",
@@ -15053,6 +15054,7 @@
       "betternether:gravel_desert": "2026-07-09 18:55:46 -0400",
       "betternether:crimson_pinewood": "2026-07-02 16:44:28 -0400",
       "betternether:old_fungiwoods": "2026-07-01 00:42:47 -0400",
+      "betternether:nether_grasslands": "2026-07-16 19:34:44 -0400",
       "betternether:old_swampland": "2026-07-01 01:07:30 -0400",
       "betternether:nether_swampland": "2026-07-01 01:16:22 -0400",
       "betternether:crimson_glowing_woods": "2026-07-02 16:34:05 -0400",
@@ -15067,16 +15069,17 @@
       "betternether:sulfuric_bone_reef": "2026-06-30 17:08:05 -0400",
       "betternether:soul_plain": "2026-07-01 01:00:08 -0400"
     },
-    "done": false
+    "done": true
   },
   "regions_unexplored:eternal_expedition": {
     "criteria": {
+      "mycotoxic_undergrowth": "2026-07-16 17:58:27 -0400",
       "blackstone_basin": "2026-07-09 18:59:56 -0400",
       "infernal_holt": "2026-06-30 17:11:00 -0400",
       "redstone_abyss": "2026-06-30 17:08:11 -0400",
       "glistering_meadow": "2026-07-01 16:23:36 -0400"
     },
-    "done": false
+    "done": true
   },
   "techreborn:recipes/extractor/glass_bottle_from_splash_potion": {
     "criteria": {
@@ -16399,6 +16402,7 @@
   },
   "regions_unexplored:got_wood": {
     "criteria": {
+      "brimwood_log": "2026-07-16 19:45:52 -0400",
       "redwood_log": "2026-06-30 19:51:26 -0400"
     },
     "done": false
@@ -22716,6 +22720,7 @@
     "criteria": {
       "betterend:crystal_mountains": "2026-07-05 20:06:25 -0400",
       "betterend:dry_shrubland": "2026-07-05 20:01:55 -0400",
+      "betterend:shadow_forest": "2026-07-16 18:25:57 -0400",
       "betterend:amber_land": "2026-07-05 20:00:58 -0400",
       "betterend:sulphur_springs": "2026-07-13 22:16:17 -0400",
       "betterend:neon_oasis": "2026-07-13 22:04:22 -0400",
@@ -22725,12 +22730,14 @@
       "betterend:foggy_mushroomland": "2026-07-13 22:04:14 -0400",
       "betterend:glowing_grasslands": "2026-07-13 22:13:47 -0400",
       "betterend:lush_aurora_cave": "2026-07-15 21:19:41 -0400",
+      "betterend:jade_cave": "2026-07-16 18:31:03 -0400",
       "betterend:megalake_grove": "2026-07-13 22:07:27 -0400",
       "betterend:umbra_valley": "2026-07-05 20:12:39 -0400",
       "betterend:chorus_forest": "2026-07-05 20:16:42 -0400",
       "betterend:lantern_woods": "2026-07-05 20:00:51 -0400",
       "betterend:umbrella_jungle": "2026-07-13 22:16:12 -0400",
-      "betterend:megalake": "2026-07-13 22:07:21 -0400"
+      "betterend:megalake": "2026-07-13 22:07:21 -0400",
+      "betterend:blossoming_spires": "2026-07-16 17:36:14 -0400"
     },
     "done": false
   },
@@ -27236,15 +27243,33 @@
     },
     "done": false
   },
-  "create:recipes/misc/crafting/kinetics/nozzle": {
+  "twigs:recipes/amethyst_blocks/polished_amethyst": {
     "criteria": {
-      "has_item": "2026-07-15 20:04:25 -0400"
+      "has_item": "2026-07-15 19:47:10 -0400"
     },
     "done": true
   },
-  "techreborn:recipes/extractor/black_dye_from_wither_rose": {
+  "twigs:recipes/amethyst_blocks/polished_amethyst_stonecutting": {
     "criteria": {
-      "has_wither_rose": "2026-07-15 20:16:45 -0400"
+      "has_item": "2026-07-15 19:47:10 -0400"
+    },
+    "done": true
+  },
+  "thaumon:recipes/misc/mutagen_from_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_amethyst_block": "2026-07-15 19:47:10 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/amethyst_blocks/cut_amethyst_from_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_item": "2026-07-15 19:47:10 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/nozzle": {
+    "criteria": {
+      "has_item": "2026-07-15 20:04:25 -0400"
     },
     "done": true
   },
@@ -27254,15 +27279,129 @@
     },
     "done": true
   },
-  "simplyswords:wickpiercer": {
+  "create:fan_processing": {
     "criteria": {
-      "requirement": "2026-07-15 20:27:16 -0400"
+      "0": "2026-07-15 20:09:09 -0400"
     },
     "done": true
   },
-  "twigs:recipes/amethyst_blocks/polished_amethyst": {
+  "minecraft:nether/get_wither_skull": {
     "criteria": {
-      "has_item": "2026-07-15 19:47:10 -0400"
+      "wither_skull": "2026-07-15 20:09:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2026-07-15 20:09:41 -0400"
+    },
+    "done": true
+  },
+  "mcda:recipes/upgrade_cores/upgrade_core_wither": {
+    "criteria": {
+      "has_core_specification_item": "2026-07-15 20:09:41 -0400"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/withered_wabbajack": {
+    "criteria": {
+      "has_item": "2026-07-15 20:09:41 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/wither": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2026-07-15 20:09:41 -0400"
+    },
+    "done": true
+  },
+  "soulsweapons:uncertainty": {
+    "criteria": {
+      "shard_of_uncertainty": "2026-07-15 20:15:42 -0400"
+    },
+    "done": true
+  },
+  "endrem:main/wither_eye": {
+    "criteria": {
+      "wither_eye": "2026-07-15 20:15:46 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/purple_dye_from_purple_lupine": {
+    "criteria": {
+      "has_purple_lupine": "2026-07-15 20:16:28 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/blue_dye_from_blue_lupine": {
+    "criteria": {
+      "has_blue_lupine": "2026-07-15 20:16:33 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/yellow_dye_from_yellow_lupine": {
+    "criteria": {
+      "has_yellow_lupine": "2026-07-15 20:16:44 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/pink_dye_from_pink_lupine": {
+    "criteria": {
+      "has_pink_lupine": "2026-07-15 20:16:44 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/extractor/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2026-07-15 20:16:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2026-07-15 20:16:45 -0400"
+    },
+    "done": true
+  },
+  "promenade:recipes/crafting/vanilla_piles/wither_rose": {
+    "criteria": {
+      "has_flower": "2026-07-15 20:16:45 -0400"
+    },
+    "done": true
+  },
+  "mcda:recipes/upgrade_cores/upgrade_core_wolf": {
+    "criteria": {
+      "has_core_specification_item": "2026-07-15 20:19:27 -0400"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/wolf_armor_leggings": {
+    "criteria": {
+      "has_wolf_pelt": "2026-07-15 20:20:37 -0400"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/wolf_armor_boots": {
+    "criteria": {
+      "has_wolf_pelt": "2026-07-15 20:20:37 -0400"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/wolf_armor_helmet": {
+    "criteria": {
+      "has_wolf_pelt": "2026-07-15 20:20:37 -0400"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/wolf_armor_chestplate": {
+    "criteria": {
+      "has_wolf_pelt": "2026-07-15 20:20:37 -0400"
+    },
+    "done": true
+  },
+  "simplyswords:wickpiercer": {
+    "criteria": {
+      "requirement": "2026-07-15 20:27:16 -0400"
     },
     "done": true
   },
@@ -27275,48 +27414,6 @@
   "fwaystones:recipes/local_void": {
     "criteria": {
       "has_abyss_watcher": "2026-07-15 20:58:05 -0400"
-    },
-    "done": true
-  },
-  "twigs:recipes/amethyst_blocks/polished_amethyst_stonecutting": {
-    "criteria": {
-      "has_item": "2026-07-15 19:47:10 -0400"
-    },
-    "done": true
-  },
-  "minecraft:nether/get_wither_skull": {
-    "criteria": {
-      "wither_skull": "2026-07-15 20:09:41 -0400"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/misc/purple_dye_from_purple_lupine": {
-    "criteria": {
-      "has_purple_lupine": "2026-07-15 20:16:28 -0400"
-    },
-    "done": true
-  },
-  "create:fan_processing": {
-    "criteria": {
-      "0": "2026-07-15 20:09:09 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/skull_banner_pattern": {
-    "criteria": {
-      "has_wither_skeleton_skull": "2026-07-15 20:09:41 -0400"
-    },
-    "done": true
-  },
-  "mcda:recipes/base_armors/wolf_armor_leggings": {
-    "criteria": {
-      "has_wolf_pelt": "2026-07-15 20:20:37 -0400"
-    },
-    "done": true
-  },
-  "thaumon:recipes/misc/mutagen_from_amethyst_block_stonecutting": {
-    "criteria": {
-      "has_amethyst_block": "2026-07-15 19:47:10 -0400"
     },
     "done": true
   },
@@ -27338,12 +27435,6 @@
     },
     "done": true
   },
-  "mcda:recipes/upgrade_cores/upgrade_core_wither": {
-    "criteria": {
-      "has_core_specification_item": "2026-07-15 20:09:41 -0400"
-    },
-    "done": true
-  },
   "fwaystones:recipes/end_stone_waystone": {
     "criteria": {
       "has_abyss_watcher": "2026-07-15 20:58:05 -0400"
@@ -27356,51 +27447,15 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/misc/yellow_dye_from_yellow_lupine": {
-    "criteria": {
-      "has_yellow_lupine": "2026-07-15 20:16:44 -0400"
-    },
-    "done": true
-  },
-  "endrem:main/wither_eye": {
-    "criteria": {
-      "wither_eye": "2026-07-15 20:15:46 -0400"
-    },
-    "done": true
-  },
-  "mcda:recipes/base_armors/wolf_armor_boots": {
-    "criteria": {
-      "has_wolf_pelt": "2026-07-15 20:20:37 -0400"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/misc/pink_dye_from_pink_lupine": {
-    "criteria": {
-      "has_pink_lupine": "2026-07-15 20:16:44 -0400"
-    },
-    "done": true
-  },
   "fwaystones:recipes/stone_brick_waystone": {
     "criteria": {
       "has_abyss_watcher": "2026-07-15 20:58:05 -0400"
     },
     "done": true
   },
-  "mcda:recipes/base_armors/wolf_armor_helmet": {
-    "criteria": {
-      "has_wolf_pelt": "2026-07-15 20:20:37 -0400"
-    },
-    "done": true
-  },
   "fwaystones:recipes/waystone_scroll": {
     "criteria": {
       "has_abyss_watcher": "2026-07-15 20:58:05 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/black_dye_from_wither_rose": {
-    "criteria": {
-      "has_wither_rose": "2026-07-15 20:16:45 -0400"
     },
     "done": true
   },
@@ -27416,51 +27471,165 @@
     },
     "done": true
   },
-  "twigs:recipes/amethyst_blocks/cut_amethyst_from_amethyst_block_stonecutting": {
+  "ends_delight:the_end_chef": {
     "criteria": {
-      "has_item": "2026-07-15 19:47:10 -0400"
+      "end_stove": "2026-07-16 15:10:14 -0400"
     },
     "done": true
   },
-  "soulsweapons:uncertainty": {
+  "simplyswords:slumbering_lichblade": {
     "criteria": {
-      "shard_of_uncertainty": "2026-07-15 20:15:42 -0400"
+      "requirement": "2026-07-16 17:25:32 -0400"
     },
     "done": true
   },
-  "mcda:recipes/base_armors/wolf_armor_chestplate": {
+  "betternether:recipes/building_blocks/nether_tile_large": {
     "criteria": {
-      "has_wolf_pelt": "2026-07-15 20:20:37 -0400"
+      "has_nether_brick_slab": "2026-07-16 17:56:10 -0400"
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/withered_wabbajack": {
+  "techreborn:recipes/industrial_sawmill/saw_small_dust_from_wooden_buttons": {
     "criteria": {
-      "has_item": "2026-07-15 20:09:41 -0400"
+      "has_tag_minecraft_wooden_buttons": "2026-07-16 17:56:10 -0400"
     },
     "done": true
   },
-  "mcda:recipes/upgrade_cores/upgrade_core_wolf": {
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks": {
     "criteria": {
-      "has_core_specification_item": "2026-07-15 20:19:27 -0400"
+      "has_nether_brick_slab": "2026-07-16 17:56:10 -0400"
     },
     "done": true
   },
-  "promenade:recipes/crafting/vanilla_piles/wither_rose": {
+  "soulsweapons:end_of_reigns": {
     "criteria": {
-      "has_flower": "2026-07-15 20:16:45 -0400"
+      "condition_0": "2026-07-16 18:07:37 -0400"
     },
     "done": true
   },
-  "regions_unexplored:recipes/misc/blue_dye_from_blue_lupine": {
+  "adventurez:recipes/blackstone_golem_arm_recipe": {
     "criteria": {
-      "has_blue_lupine": "2026-07-15 20:16:33 -0400"
+      "got_the_heart": "2026-07-16 18:37:54 -0400"
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/wither": {
+  "regions_unexplored:recipes/redstone/brimwood_fence_gate": {
     "criteria": {
-      "has_wither_skeleton_skull": "2026-07-15 20:09:41 -0400"
+      "has_brimwood_planks": "2026-07-16 19:46:00 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/regions_unexplored/sign_post_brimwood": {
+    "criteria": {
+      "has_item": "2026-07-16 19:46:00 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/brimwood_pressure_plate": {
+    "criteria": {
+      "has_brimwood_planks": "2026-07-16 19:46:00 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/brimwood_planks": {
+    "criteria": {
+      "has_logs": "2026-07-16 19:45:52 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/brimwood_wood": {
+    "criteria": {
+      "has_log": "2026-07-16 19:45:52 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/brimwood_door": {
+    "criteria": {
+      "has_brimwood_planks": "2026-07-16 19:46:00 -0400"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/date_sapling": {
+    "criteria": {
+      "has_date": "2026-07-16 20:06:53 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/blast_furnace/gold_ingot_from_helmet": {
+    "criteria": {
+      "has_golden_helmet": "2026-07-16 20:03:06 -0400"
+    },
+    "done": true
+  },
+  "simplyswords:emberlash": {
+    "criteria": {
+      "requirement": "2026-07-16 20:48:24 -0400"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_sticky_toffee_pudding": {
+    "criteria": {
+      "has_date": "2026-07-16 20:06:53 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/brimwood_trapdoor": {
+    "criteria": {
+      "has_brimwood_planks": "2026-07-16 19:46:00 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/brimwood_stairs": {
+    "criteria": {
+      "has_brimwood_planks": "2026-07-16 19:46:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2026-07-16 19:35:18 -0400"
+    },
+    "done": true
+  },
+  "things:bater_wucket": {
+    "criteria": {
+      "bater_wucket": "2026-07-16 19:22:00 -0400"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_figgy_pudding": {
+    "criteria": {
+      "has_date": "2026-07-16 20:06:53 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/brimwood_fence": {
+    "criteria": {
+      "has_brimwood_planks": "2026-07-16 19:46:00 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/brimwood_slab": {
+    "criteria": {
+      "has_brimwood_planks": "2026-07-16 19:46:00 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/brimwood_sign": {
+    "criteria": {
+      "has_brimwood_planks": "2026-07-16 19:46:00 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/brimwood_button": {
+    "criteria": {
+      "has_brimwood_planks": "2026-07-16 19:46:00 -0400"
+    },
+    "done": true
+  },
+  "adventurez:recipes/orc_skin_recipe": {
+    "criteria": {
+      "got_the_orc_skin": "2026-07-16 19:34:02 -0400"
     },
     "done": true
   },
