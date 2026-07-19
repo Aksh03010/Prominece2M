@@ -3840,7 +3840,8 @@
       "golden_carrot": "2026-06-29 21:04:35 -0400",
       "enchanted_golden_apple": "2026-07-11 20:19:26 -0400",
       "rabbit_stew": "2026-06-28 22:43:42 -0400",
-      "cooked_salmon": "2026-06-28 20:53:57 -0400"
+      "cooked_salmon": "2026-06-28 20:53:57 -0400",
+      "carrot": "2026-07-18 21:37:47 -0400"
     },
     "done": false
   },
@@ -27933,87 +27934,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
-    "criteria": {
-      "has_ancient_debris": "2026-07-18 18:17:27 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/moon_pillar": {
-    "criteria": {
-      "has_moon_pillar": "2026-07-18 17:22:29 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/desh_factory_block": {
-    "criteria": {
-      "has_desh_factory_block": "2026-07-18 17:48:32 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_lantern": {
-    "criteria": {
-      "has_soul_torch": "2026-07-18 17:30:23 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-07-18 16:47:27 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/desh_block": {
-    "criteria": {
-      "has_desh_block": "2026-07-18 17:30:31 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/desh_plating_pressure_plate": {
-    "criteria": {
-      "has_desh_plating_pressure_plate": "2026-07-18 17:24:42 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/stonecutting/chiseled_moon_stone_bricks_from_moon_stone_stonecutting": {
-    "criteria": {
-      "has_chiseled_moon_stone_bricks": "2026-07-18 17:22:29 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/stonecutting/moon_cobblestone_slab_from_moon_cobblestone_stonecutting": {
-    "criteria": {
-      "has_moon_cobblestone_slab": "2026-07-18 17:22:36 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/stonecutting/moon_stone_bricks_from_moon_stone_stonecutting": {
-    "criteria": {
-      "has_moon_stone_bricks": "2026-07-18 17:22:29 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/stonecutting/moon_cobblestone_stairs_from_moon_cobblestone_stonecutting": {
-    "criteria": {
-      "has_moon_cobblestone_stairs": "2026-07-18 17:22:36 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/compressing/compressing/desh_plate_from_compressing_desh_ingots": {
-    "criteria": {
-      "has_item": "2026-07-18 17:30:31 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/solar_panel": {
-    "criteria": {
-      "has_solar_panel": "2026-07-18 17:48:32 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/smelting/moon_stone_from_smelting_moon_cobblestone": {
-    "criteria": {
-      "has_moon_stone": "2026-07-18 17:22:36 -0400"
     },
     "done": true
   },
@@ -28029,51 +27952,9 @@
     },
     "done": true
   },
-  "ad_astra:recipes/misc/gravity_normalizer": {
-    "criteria": {
-      "has_gravity_normalizer": "2026-07-18 17:48:32 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/stonecutting/polished_moon_stone_stairs_from_moon_stone_stonecutting": {
-    "criteria": {
-      "has_polished_moon_stone_stairs": "2026-07-18 17:22:29 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-07-18 16:47:27 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/compressing/compressing/desh_plate_from_compressing_desh_blocks": {
-    "criteria": {
-      "has_item": "2026-07-18 18:02:45 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/fluid_pipe_duct": {
-    "criteria": {
-      "has_fluid_pipe_duct": "2026-07-18 17:48:32 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/desh_nugget": {
-    "criteria": {
-      "has_desh_nugget": "2026-07-18 17:30:31 -0400"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/conversions/white_petal_block_deconstruct": {
-    "criteria": {
-      "has_item": "2026-07-18 18:24:41 -0400"
-    },
-    "done": true
-  },
-  "twigs:recipes/lamps/soul_lamp": {
-    "criteria": {
-      "has_item": "2026-07-18 17:30:23 -0400"
     },
     "done": true
   },
@@ -28089,99 +27970,9 @@
     },
     "done": true
   },
-  "endrem:main/magical_eye": {
-    "criteria": {
-      "magical_eye": "2026-07-18 18:12:38 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/desh_plateblock": {
-    "criteria": {
-      "has_desh_plateblock": "2026-07-18 17:48:32 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/stonecutting/polished_moon_stone_from_moon_stone_stonecutting": {
-    "criteria": {
-      "has_polished_moon_stone": "2026-07-18 17:22:29 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-07-18 16:47:27 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/blasting/desh_ingot_from_blasting_raw_desh": {
-    "criteria": {
-      "has_desh_ingot": "2026-07-18 17:32:06 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/smelting/cheese_from_smelting_moon_cheese_ore": {
-    "criteria": {
-      "has_cheese": "2026-07-18 17:22:26 -0400"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_white": {
-    "criteria": {
-      "has_alt_item": "2026-07-18 18:24:41 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/desh_plating": {
-    "criteria": {
-      "has_desh_plating": "2026-07-18 17:48:32 -0400"
-    },
-    "done": true
-  },
-  "croptopia:recipes/ravioli": {
-    "criteria": {
-      "has_cheese": "2026-07-18 17:22:45 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/industrial_grinder/netherite_scrap_from_ancient_debris_with_water": {
-    "criteria": {
-      "has_ancient_debris": "2026-07-18 18:17:27 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/desh_sliding_door": {
-    "criteria": {
-      "has_desh_sliding_door": "2026-07-18 17:48:32 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap": {
-    "criteria": {
-      "has_ancient_debris": "2026-07-18 18:17:27 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/desh_ingot_from_desh_block": {
-    "criteria": {
-      "has_desh_ingot": "2026-07-18 18:02:45 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/desh_plating_stairs": {
-    "criteria": {
-      "has_desh_plating_stairs": "2026-07-18 17:24:42 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/water_pump": {
-    "criteria": {
-      "has_water_pump": "2026-07-18 17:48:32 -0400"
-    },
-    "done": true
-  },
-  "endrem:main/cold_eye": {
-    "criteria": {
-      "cold_eye": "2026-07-18 18:12:36 -0400"
     },
     "done": true
   },
@@ -28197,48 +27988,6 @@
     },
     "done": true
   },
-  "ad_astra:recipes/misc/moon_stone_slab": {
-    "criteria": {
-      "has_moon_stone_slab": "2026-07-18 17:22:29 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/photovoltaic_etrium_cell": {
-    "criteria": {
-      "has_photovoltaic_etrium_cell": "2026-07-18 17:48:32 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/stonecutting/moon_stone_slab_from_moon_stone_stonecutting": {
-    "criteria": {
-      "has_moon_stone_slab": "2026-07-18 17:22:29 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/honeycomb_block": {
-    "criteria": {
-      "has_honeycomb": "2026-07-18 18:15:13 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/assembling_machine/soul_lantern": {
-    "criteria": {
-      "has_soul_torch": "2026-07-18 17:30:23 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/stonecutting/moon_stone_brick_slab_from_moon_stone_stonecutting": {
-    "criteria": {
-      "has_moon_stone_brick_slab": "2026-07-18 17:22:29 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/polished_moon_stone": {
-    "criteria": {
-      "has_polished_moon_stone": "2026-07-18 17:22:36 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-07-18 16:47:27 -0400"
@@ -28248,42 +27997,6 @@
   "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-07-18 16:47:27 -0400"
-    },
-    "done": true
-  },
-  "techreborn:recipes/compressor/redstone_plate": {
-    "criteria": {
-      "has_redstone_block": "2026-07-18 17:06:04 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/stonecutting/polished_moon_stone_slab_from_moon_stone_stonecutting": {
-    "criteria": {
-      "has_polished_moon_stone_slab": "2026-07-18 17:22:29 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/smelting/desh_ingot_from_smelting_raw_desh": {
-    "criteria": {
-      "has_desh_ingot": "2026-07-18 17:32:06 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/desh_fluid_pipe": {
-    "criteria": {
-      "has_desh_fluid_pipe": "2026-07-18 17:48:32 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/moon_stone_bricks": {
-    "criteria": {
-      "has_moon_stone_bricks": "2026-07-18 17:22:29 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/stonecutting/moon_stone_brick_wall_from_moon_stone_stonecutting": {
-    "criteria": {
-      "has_moon_stone_brick_wall": "2026-07-18 17:22:29 -0400"
     },
     "done": true
   },
@@ -28299,9 +28012,27 @@
     },
     "done": true
   },
-  "ad_astra:recipes/misc/desh_panel": {
+  "create:recipes/building_blocks/tiled_glass_pane_from_colorless_glass_panes_stonecutting": {
     "criteria": {
-      "has_desh_panel": "2026-07-18 17:48:32 -0400"
+      "has_colorless_glass_panes": "2026-07-18 16:47:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-18 16:47:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2026-07-18 16:47:27 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/horizontal_framed_glass_pane_from_colorless_glass_panes_stonecutting": {
+    "criteria": {
+      "has_colorless_glass_panes": "2026-07-18 16:47:27 -0400"
     },
     "done": true
   },
@@ -28311,21 +28042,105 @@
     },
     "done": true
   },
-  "ad_astra:recipes/misc/encased_desh_block": {
+  "ad_astra:astronaut": {
     "criteria": {
-      "has_encased_desh_block": "2026-07-18 17:48:32 -0400"
+      "has_astronaut": "2026-07-18 16:55:04 -0400"
     },
     "done": true
   },
-  "create:recipes/building_blocks/tiled_glass_pane_from_colorless_glass_panes_stonecutting": {
+  "techreborn:recipes/compressor/redstone_plate": {
     "criteria": {
-      "has_colorless_glass_panes": "2026-07-18 16:47:27 -0400"
+      "has_redstone_block": "2026-07-18 17:06:04 -0400"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/desh_engine": {
+  "minecraft:recipes/redstone/redstone": {
     "criteria": {
-      "has_desh_engine": "2026-07-18 17:48:32 -0400"
+      "has_redstone_block": "2026-07-18 17:06:04 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/implosion_compressor/red_garnet_dust": {
+    "criteria": {
+      "has_redstone_block": "2026-07-18 17:06:04 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/smelting/cheese_from_smelting_moon_cheese_ore": {
+    "criteria": {
+      "has_cheese": "2026-07-18 17:22:26 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/blasting/cheese_from_blasting_moon_cheese_ore": {
+    "criteria": {
+      "has_cheese": "2026-07-18 17:22:26 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/moon_pillar": {
+    "criteria": {
+      "has_moon_pillar": "2026-07-18 17:22:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/chiseled_moon_stone_bricks_from_moon_stone_stonecutting": {
+    "criteria": {
+      "has_chiseled_moon_stone_bricks": "2026-07-18 17:22:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/moon_stone_bricks_from_moon_stone_stonecutting": {
+    "criteria": {
+      "has_moon_stone_bricks": "2026-07-18 17:22:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/polished_moon_stone_stairs_from_moon_stone_stonecutting": {
+    "criteria": {
+      "has_polished_moon_stone_stairs": "2026-07-18 17:22:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/polished_moon_stone_from_moon_stone_stonecutting": {
+    "criteria": {
+      "has_polished_moon_stone": "2026-07-18 17:22:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/moon_stone_slab": {
+    "criteria": {
+      "has_moon_stone_slab": "2026-07-18 17:22:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/moon_stone_slab_from_moon_stone_stonecutting": {
+    "criteria": {
+      "has_moon_stone_slab": "2026-07-18 17:22:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/moon_stone_brick_slab_from_moon_stone_stonecutting": {
+    "criteria": {
+      "has_moon_stone_brick_slab": "2026-07-18 17:22:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/polished_moon_stone_slab_from_moon_stone_stonecutting": {
+    "criteria": {
+      "has_polished_moon_stone_slab": "2026-07-18 17:22:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/moon_stone_bricks": {
+    "criteria": {
+      "has_moon_stone_bricks": "2026-07-18 17:22:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/moon_stone_brick_wall_from_moon_stone_stonecutting": {
+    "criteria": {
+      "has_moon_stone_brick_wall": "2026-07-18 17:22:29 -0400"
     },
     "done": true
   },
@@ -28341,33 +28156,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone": {
-    "criteria": {
-      "has_redstone_block": "2026-07-18 17:06:04 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_glass_pane": "2026-07-18 16:47:27 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/stonecutting/moon_stone_brick_stairs_from_moon_stone_stonecutting": {
     "criteria": {
       "has_moon_stone_brick_stairs": "2026-07-18 17:22:29 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/desh_plating_button": {
-    "criteria": {
-      "has_desh_plating_button": "2026-07-18 17:24:42 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/desh_tank": {
-    "criteria": {
-      "has_desh_tank": "2026-07-18 17:48:32 -0400"
     },
     "done": true
   },
@@ -28377,51 +28168,33 @@
     },
     "done": true
   },
-  "ad_astra:recipes/misc/cheese_block": {
+  "ad_astra:recipes/misc/sky_stone": {
     "criteria": {
-      "has_cheese_block": "2026-07-18 17:22:45 -0400"
+      "has_sky_stone": "2026-07-18 17:22:29 -0400"
     },
     "done": true
   },
-  "botania:recipes/decorations/white_petal_block": {
+  "ad_astra:recipes/misc/stonecutting/moon_cobblestone_slab_from_moon_cobblestone_stonecutting": {
     "criteria": {
-      "has_item": "2026-07-18 18:24:41 -0400"
+      "has_moon_cobblestone_slab": "2026-07-18 17:22:36 -0400"
     },
     "done": true
   },
-  "ad_astra:moon_cheese": {
+  "ad_astra:recipes/misc/stonecutting/moon_cobblestone_stairs_from_moon_cobblestone_stonecutting": {
     "criteria": {
-      "has_moon_cheese": "2026-07-18 17:22:45 -0400"
+      "has_moon_cobblestone_stairs": "2026-07-18 17:22:36 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+  "ad_astra:recipes/misc/smelting/moon_stone_from_smelting_moon_cobblestone": {
     "criteria": {
-      "has_glass_pane": "2026-07-18 16:47:27 -0400"
+      "has_moon_stone": "2026-07-18 17:22:36 -0400"
     },
     "done": true
   },
-  "decorative_blocks:recipes/decorative_blocks.general/soul_chandelier": {
+  "ad_astra:recipes/misc/polished_moon_stone": {
     "criteria": {
-      "has_torch": "2026-07-18 17:30:23 -0400"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/dye_white": {
-    "criteria": {
-      "has_item": "2026-07-18 18:24:41 -0400"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2026-07-18 18:17:27 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/blasting/cheese_from_blasting_moon_cheese_ore": {
-    "criteria": {
-      "has_cheese": "2026-07-18 17:22:26 -0400"
+      "has_polished_moon_stone": "2026-07-18 17:22:36 -0400"
     },
     "done": true
   },
@@ -28431,15 +28204,27 @@
     },
     "done": true
   },
-  "decorative_blocks:recipes/decorations/soul_torch_from_soul_chandelier": {
+  "ad_astra:recipes/misc/moon_cobblestone_stairs": {
     "criteria": {
-      "has_torch": "2026-07-18 17:30:23 -0400"
+      "has_moon_cobblestone_stairs": "2026-07-18 17:22:36 -0400"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/sky_stone": {
+  "croptopia:recipes/ravioli": {
     "criteria": {
-      "has_sky_stone": "2026-07-18 17:22:29 -0400"
+      "has_cheese": "2026-07-18 17:22:45 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/cheese_block": {
+    "criteria": {
+      "has_cheese_block": "2026-07-18 17:22:45 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:moon_cheese": {
+    "criteria": {
+      "has_moon_cheese": "2026-07-18 17:22:45 -0400"
     },
     "done": true
   },
@@ -28449,57 +28234,93 @@
     },
     "done": true
   },
+  "ad_astra:recipes/misc/desh_plating_pressure_plate": {
+    "criteria": {
+      "has_desh_plating_pressure_plate": "2026-07-18 17:24:42 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/desh_plating_stairs": {
+    "criteria": {
+      "has_desh_plating_stairs": "2026-07-18 17:24:42 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/desh_plating_button": {
+    "criteria": {
+      "has_desh_plating_button": "2026-07-18 17:24:42 -0400"
+    },
+    "done": true
+  },
   "ad_astra:recipes/misc/desh_pillar": {
     "criteria": {
       "has_desh_pillar": "2026-07-18 17:24:42 -0400"
     },
     "done": true
   },
-  "techreborn:recipes/industrial_grinder/netherite_scrap_from_ancient_debris_with_mercury": {
+  "ad_astra:recipes/misc/desh_plating_slab": {
     "criteria": {
-      "has_ancient_debris": "2026-07-18 18:17:27 -0400"
+      "has_desh_plating_slab": "2026-07-18 17:24:42 -0400"
     },
     "done": true
   },
-  "techreborn:recipes/implosion_compressor/red_garnet_dust": {
+  "minecraft:recipes/decorations/soul_lantern": {
     "criteria": {
-      "has_redstone_block": "2026-07-18 17:06:04 -0400"
+      "has_soul_torch": "2026-07-18 17:30:23 -0400"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/desh_cable": {
+  "twigs:recipes/lamps/soul_lamp": {
     "criteria": {
-      "has_desh_cable": "2026-07-18 17:48:32 -0400"
+      "has_item": "2026-07-18 17:30:23 -0400"
     },
     "done": true
   },
-  "create:recipes/building_blocks/horizontal_framed_glass_pane_from_colorless_glass_panes_stonecutting": {
+  "techreborn:recipes/assembling_machine/soul_lantern": {
     "criteria": {
-      "has_colorless_glass_panes": "2026-07-18 16:47:27 -0400"
+      "has_soul_torch": "2026-07-18 17:30:23 -0400"
     },
     "done": true
   },
-  "endrem:main/lost_eye": {
+  "decorative_blocks:recipes/decorative_blocks.general/soul_chandelier": {
     "criteria": {
-      "lost_eye": "2026-07-18 18:12:53 -0400"
+      "has_torch": "2026-07-18 17:30:23 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/beehive": {
+  "decorative_blocks:recipes/decorations/soul_torch_from_soul_chandelier": {
     "criteria": {
-      "has_honeycomb": "2026-07-18 18:15:13 -0400"
+      "has_torch": "2026-07-18 17:30:23 -0400"
     },
     "done": true
   },
-  "ad_astra:astronaut": {
+  "ad_astra:recipes/misc/desh_block": {
     "criteria": {
-      "has_astronaut": "2026-07-18 16:55:04 -0400"
+      "has_desh_block": "2026-07-18 17:30:31 -0400"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/moon_cobblestone_stairs": {
+  "ad_astra:recipes/compressing/compressing/desh_plate_from_compressing_desh_ingots": {
     "criteria": {
-      "has_moon_cobblestone_stairs": "2026-07-18 17:22:36 -0400"
+      "has_item": "2026-07-18 17:30:31 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/desh_nugget": {
+    "criteria": {
+      "has_desh_nugget": "2026-07-18 17:30:31 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/blasting/desh_ingot_from_blasting_raw_desh": {
+    "criteria": {
+      "has_desh_ingot": "2026-07-18 17:32:06 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/smelting/desh_ingot_from_smelting_raw_desh": {
+    "criteria": {
+      "has_desh_ingot": "2026-07-18 17:32:06 -0400"
     },
     "done": true
   },
@@ -28509,9 +28330,195 @@
     },
     "done": true
   },
+  "ad_astra:recipes/misc/desh_factory_block": {
+    "criteria": {
+      "has_desh_factory_block": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/solar_panel": {
+    "criteria": {
+      "has_solar_panel": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/gravity_normalizer": {
+    "criteria": {
+      "has_gravity_normalizer": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/fluid_pipe_duct": {
+    "criteria": {
+      "has_fluid_pipe_duct": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/desh_plateblock": {
+    "criteria": {
+      "has_desh_plateblock": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/desh_plating": {
+    "criteria": {
+      "has_desh_plating": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/desh_sliding_door": {
+    "criteria": {
+      "has_desh_sliding_door": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/water_pump": {
+    "criteria": {
+      "has_water_pump": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/photovoltaic_etrium_cell": {
+    "criteria": {
+      "has_photovoltaic_etrium_cell": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/desh_fluid_pipe": {
+    "criteria": {
+      "has_desh_fluid_pipe": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/desh_panel": {
+    "criteria": {
+      "has_desh_panel": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/encased_desh_block": {
+    "criteria": {
+      "has_encased_desh_block": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/desh_engine": {
+    "criteria": {
+      "has_desh_engine": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/desh_tank": {
+    "criteria": {
+      "has_desh_tank": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/desh_cable": {
+    "criteria": {
+      "has_desh_cable": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
   "ad_astra:recipes/misc/oxygen_distributor": {
     "criteria": {
       "has_oxygen_distributor": "2026-07-18 17:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/desh_plate_from_compressing_desh_blocks": {
+    "criteria": {
+      "has_item": "2026-07-18 18:02:45 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/desh_ingot_from_desh_block": {
+    "criteria": {
+      "has_desh_ingot": "2026-07-18 18:02:45 -0400"
+    },
+    "done": true
+  },
+  "endrem:main/cold_eye": {
+    "criteria": {
+      "cold_eye": "2026-07-18 18:12:36 -0400"
+    },
+    "done": true
+  },
+  "endrem:main/magical_eye": {
+    "criteria": {
+      "magical_eye": "2026-07-18 18:12:38 -0400"
+    },
+    "done": true
+  },
+  "endrem:main/lost_eye": {
+    "criteria": {
+      "lost_eye": "2026-07-18 18:12:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2026-07-18 18:15:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2026-07-18 18:15:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2026-07-18 18:17:27 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/industrial_grinder/netherite_scrap_from_ancient_debris_with_water": {
+    "criteria": {
+      "has_ancient_debris": "2026-07-18 18:17:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2026-07-18 18:17:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-07-18 18:17:27 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/industrial_grinder/netherite_scrap_from_ancient_debris_with_mercury": {
+    "criteria": {
+      "has_ancient_debris": "2026-07-18 18:17:27 -0400"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/white_petal_block_deconstruct": {
+    "criteria": {
+      "has_item": "2026-07-18 18:24:41 -0400"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_white": {
+    "criteria": {
+      "has_alt_item": "2026-07-18 18:24:41 -0400"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/white_petal_block": {
+    "criteria": {
+      "has_item": "2026-07-18 18:24:41 -0400"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_white": {
+    "criteria": {
+      "has_item": "2026-07-18 18:24:41 -0400"
     },
     "done": true
   },
@@ -28521,9 +28528,123 @@
     },
     "done": true
   },
-  "ad_astra:recipes/misc/desh_plating_slab": {
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall": {
     "criteria": {
-      "has_desh_plating_slab": "2026-07-18 17:24:42 -0400"
+      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/silt/silt_brick": {
+    "criteria": {
+      "has_item": "2026-07-18 22:53:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2026-07-18 23:02:11 -0400"
+    },
+    "done": true
+  },
+  "more_armor_trims:recipes/misc/parasite_armor_trim_smithing_template": {
+    "criteria": {
+      "has_parasite_armor_trim_smithing_template": "2026-07-18 23:11:05 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall_from_smooth_stone_brick_stonecutting": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2026-07-18 23:02:11 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/crimson_cabinet": {
+    "criteria": {
+      "has_crimson_trapdoor": "2026-07-18 22:05:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2026-07-18 23:02:11 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_bricks_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2026-07-18 23:02:11 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/silt/silt_from_silt_balls": {
+    "criteria": {
+      "has_item": "2026-07-18 22:53:23 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_bricks": {
+    "criteria": {
+      "has_smooth_stone": "2026-07-18 23:02:11 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2026-07-18 23:02:11 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_slab_from_smooth_stone_brick_stonecutting": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2026-07-18 23:02:11 -0400"
+    },
+    "done": true
+  },
+  "more_armor_trims:recipes/misc/parasite_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-18 23:11:05 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_slab": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/assembling_machine/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_smooth_stone": "2026-07-18 23:02:11 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs_from_smooth_stone_brick_stonecutting": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2026-07-18 23:02:11 -0400"
     },
     "done": true
   },
