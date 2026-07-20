@@ -625,6 +625,7 @@
   "croptopia:gather_savanna": {
     "criteria": {
       "leek_seed": "2026-06-30 23:27:54 -0400",
+      "yam_seed": "2026-07-19 13:46:19 -0400",
       "hops_seed": "2026-06-28 19:44:55 -0400",
       "kiwi_seed": "2026-06-29 17:35:11 -0400"
     },
@@ -1342,6 +1343,7 @@
   "croptopia:gather_all": {
     "criteria": {
       "vanilla_seeds": "2026-06-30 22:37:37 -0400",
+      "yam_seed": "2026-07-19 13:46:19 -0400",
       "hops_seed": "2026-06-28 19:44:55 -0400",
       "cabbage_seed": "2026-07-15 14:38:16 -0400",
       "onion_seed": "2026-07-15 14:38:35 -0400",
@@ -22671,9 +22673,10 @@
   "betterend:all_elytras": {
     "criteria": {
       "crystalite": "2026-07-13 22:41:15 -0400",
+      "armored": "2026-07-19 17:50:01 -0400",
       "vanilla": "2026-07-05 19:42:41 -0400"
     },
-    "done": false
+    "done": true
   },
   "techreborn:recipes/crafting_table/machine/dragon_egg_syphon": {
     "criteria": {
@@ -28528,13 +28531,19 @@
     },
     "done": true
   },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall": {
+  "farmersdelight:recipes/decorations/crimson_cabinet": {
     "criteria": {
-      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
+      "has_crimson_trapdoor": "2026-07-18 22:05:17 -0400"
     },
     "done": true
   },
   "twigs:recipes/silt/silt_brick": {
+    "criteria": {
+      "has_item": "2026-07-18 22:53:23 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/silt/silt_from_silt_balls": {
     "criteria": {
       "has_item": "2026-07-18 22:53:23 -0400"
     },
@@ -28546,27 +28555,9 @@
     },
     "done": true
   },
-  "more_armor_trims:recipes/misc/parasite_armor_trim_smithing_template": {
-    "criteria": {
-      "has_parasite_armor_trim_smithing_template": "2026-07-18 23:11:05 -0400"
-    },
-    "done": true
-  },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall_from_smooth_stone_brick_stonecutting": {
-    "criteria": {
-      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
       "has_smooth_stone": "2026-07-18 23:02:11 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/crimson_cabinet": {
-    "criteria": {
-      "has_crimson_trapdoor": "2026-07-18 22:05:17 -0400"
     },
     "done": true
   },
@@ -28582,18 +28573,6 @@
     },
     "done": true
   },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs": {
-    "criteria": {
-      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
-    },
-    "done": true
-  },
-  "twigs:recipes/silt/silt_from_silt_balls": {
-    "criteria": {
-      "has_item": "2026-07-18 22:53:23 -0400"
-    },
-    "done": true
-  },
   "twigs:recipes/smooth_stone_bricks/smooth_stone_bricks": {
     "criteria": {
       "has_smooth_stone": "2026-07-18 23:02:11 -0400"
@@ -28606,27 +28585,9 @@
     },
     "done": true
   },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_slab_from_smooth_stone_brick_stonecutting": {
-    "criteria": {
-      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
-    },
-    "done": true
-  },
   "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2026-07-18 23:02:11 -0400"
-    },
-    "done": true
-  },
-  "more_armor_trims:recipes/misc/parasite_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2026-07-18 23:11:05 -0400"
-    },
-    "done": true
-  },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_slab": {
-    "criteria": {
-      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
     },
     "done": true
   },
@@ -28636,15 +28597,213 @@
     },
     "done": true
   },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2026-07-18 23:02:11 -0400"
+    },
+    "done": true
+  },
+  "more_armor_trims:recipes/misc/parasite_armor_trim_smithing_template": {
+    "criteria": {
+      "has_parasite_armor_trim_smithing_template": "2026-07-18 23:11:05 -0400"
+    },
+    "done": true
+  },
+  "more_armor_trims:recipes/misc/parasite_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-18 23:11:05 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall_from_smooth_stone_brick_stonecutting": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_slab_from_smooth_stone_brick_stonecutting": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_slab": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
+    },
+    "done": true
+  },
   "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs_from_smooth_stone_brick_stonecutting": {
     "criteria": {
       "has_smooth_stone_bricks": "2026-07-18 23:23:29 -0400"
     },
     "done": true
   },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall_from_smooth_stone_stonecutting": {
+  "minecraft:end/respawn_dragon": {
     "criteria": {
-      "has_smooth_stone": "2026-07-18 23:02:11 -0400"
+      "summoned_dragon": "2026-07-19 00:28:30 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/extractor/rubber_from_rubber_sapling": {
+    "criteria": {
+      "has_rubber_sapling": "2026-07-19 01:12:56 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/extractor/rubber_from_log": {
+    "criteria": {
+      "has_rubber_log": "2026-07-19 01:12:59 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/misc_block/rubber_wood": {
+    "criteria": {
+      "has_rubber_log": "2026-07-19 01:12:59 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/centrifuge/rubber_logs": {
+    "criteria": {
+      "has_rubber_logs": "2026-07-19 01:12:59 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/misc_block/rubber_planks": {
+    "criteria": {
+      "has_rubber_log": "2026-07-19 01:12:59 -0400"
+    },
+    "done": true
+  },
+  "simplyswords:flamewind": {
+    "criteria": {
+      "requirement": "2026-07-19 01:15:17 -0400"
+    },
+    "done": true
+  },
+  "adventurez:blackstone_golem_advancement": {
+    "criteria": {
+      "golemkill": "2026-07-19 02:07:01 -0400"
+    },
+    "done": true
+  },
+  "croptopia:recipes/campfire_baked_yam": {
+    "criteria": {
+      "has_yam": "2026-07-19 13:46:19 -0400"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/yam_seed": {
+    "criteria": {
+      "has_yam": "2026-07-19 13:46:19 -0400"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/baked_yam_from_yam": {
+    "criteria": {
+      "has_yam": "2026-07-19 13:46:19 -0400"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/baked_yam_from_smoking_yam": {
+    "criteria": {
+      "has_yam": "2026-07-19 13:46:19 -0400"
+    },
+    "done": true
+  },
+  "techreborn:recipes/industrial_sawmill/saw_small_dust_from_wooden_sword": {
+    "criteria": {
+      "has_wooden_sword": "2026-07-19 14:07:55 -0400"
+    },
+    "done": true
+  },
+  "simplyswords:bramblethorn": {
+    "criteria": {
+      "requirement": "2026-07-19 19:02:58 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/moon_stone_brick_slab": {
+    "criteria": {
+      "has_moon_stone_brick_slab": "2026-07-19 18:15:25 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/moon_stone_brick_slab_from_moon_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_moon_stone_brick_slab": "2026-07-19 18:15:25 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/purple_dye_from_purple_coneflower": {
+    "criteria": {
+      "has_purple_coneflower": "2026-07-19 19:19:01 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/moon_stone_brick_wall": {
+    "criteria": {
+      "has_moon_stone_brick_wall": "2026-07-19 18:15:25 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/smelting/cracked_moon_stone_bricks_from_smelting_moon_stone_bricks": {
+    "criteria": {
+      "has_cracked_moon_stone_bricks": "2026-07-19 18:15:25 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/moon_stone_brick_stairs": {
+    "criteria": {
+      "has_moon_stone_brick_stairs": "2026-07-19 18:15:25 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/moon_stone_brick_stairs_from_moon_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_moon_stone_brick_stairs": "2026-07-19 18:15:25 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/chiseled_moon_stone_bricks_from_moon_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_chiseled_moon_stone_bricks": "2026-07-19 18:15:25 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/moon_pillar_from_moon_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_moon_pillar": "2026-07-19 18:15:25 -0400"
+    },
+    "done": true
+  },
+  "archon:kill_tar": {
+    "criteria": {
+      "archon:tar": "2026-07-19 18:24:11 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/moon_stone_brick_wall_from_moon_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_moon_stone_brick_wall": "2026-07-19 18:15:25 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/polished_moon_stone_from_moon_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_moon_stone": "2026-07-19 18:15:25 -0400"
     },
     "done": true
   },

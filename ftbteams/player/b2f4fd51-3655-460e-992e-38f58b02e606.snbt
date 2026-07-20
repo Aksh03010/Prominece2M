@@ -1,0 +1,17 @@
+{
+	id: "b2f4fd51-3655-460e-992e-38f58b02e606"
+	type: "player"
+	player_name: "Night_Stalkers09"
+	ranks: {
+		b2f4fd51-3655-460e-992e-38f58b02e606: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Night_Stalkers09"
+		"ftbteams:description": ""
+		"ftbteams:color": "#7FFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
